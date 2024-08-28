@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bg-custom-gradient {
+  background-color: #0f403e;
+  background-image: radial-gradient(circle, #00686f 0%, #000000 74%);
+}
+
+body {
+  @apply bg-custom-gradient;
+}
